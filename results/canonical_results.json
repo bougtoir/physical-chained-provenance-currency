@@ -1,0 +1,247 @@
+{
+  "n_samples": {
+    "value": 2612,
+    "display": "2,612",
+    "source": "data/processed/sample_concentrations.csv"
+  },
+  "n_groups": {
+    "value": 16,
+    "display": "16",
+    "source": "data/processed/empirical_meta.json"
+  },
+  "n_elements": {
+    "value": 13,
+    "display": "13",
+    "source": "data/processed/empirical_meta.json"
+  },
+  "d_eff": {
+    "value": 2.9734636103108105,
+    "display": "2.97",
+    "source": "data/processed/empirical_meta.json"
+  },
+  "d_eff_int": {
+    "value": 3,
+    "display": "3",
+    "source": "data/processed/empirical_meta.json"
+  },
+  "median_sep": {
+    "value": 3.862402226343039,
+    "display": "3.9",
+    "source": "data/processed/empirical_separability.csv"
+  },
+  "sep_min": {
+    "value": 0.5431718234808735,
+    "display": "0.54",
+    "source": "data/processed/empirical_separability.csv"
+  },
+  "sep_max": {
+    "value": 10.587855355321343,
+    "display": "10.6",
+    "source": "data/processed/empirical_separability.csv"
+  },
+  "crt05_sep8_n3": {
+    "value": 0.9,
+    "display": "0.9",
+    "source": "tables/table_crt05.csv"
+  },
+  "crt05_sep8_n50": {
+    "value": 0.0,
+    "display": "0",
+    "source": "tables/table_crt05.csv"
+  },
+  "crt05_sep_le2": {
+    "value": 0.0,
+    "display": "0",
+    "source": "tables/table_crt05.csv"
+  },
+  "horizon_steps": {
+    "value": 40,
+    "display": "40",
+    "source": "data/processed/sim_trajectories.csv"
+  },
+  "T1_sequence": {
+    "value": "R1→R2→R4",
+    "display": "R1>R2>R4",
+    "source": "data/processed/sim_trajectories.csv"
+  },
+  "T1_first_transition": {
+    "value": 24,
+    "display": "24",
+    "source": "data/processed/sim_trajectories.csv"
+  },
+  "T2_sequence": {
+    "value": "R1→R2→R3→R4",
+    "display": "R1>R2>R3>R4",
+    "source": "data/processed/sim_trajectories.csv"
+  },
+  "T2_first_transition": {
+    "value": 18,
+    "display": "18",
+    "source": "data/processed/sim_trajectories.csv"
+  },
+  "T2_r3_first": {
+    "value": 26,
+    "display": "26",
+    "source": "data/processed/sim_r3_window.csv"
+  },
+  "T2_r3_last": {
+    "value": 27,
+    "display": "27",
+    "source": "data/processed/sim_r3_window.csv"
+  },
+  "T2_r3_steps": {
+    "value": 2,
+    "display": "2",
+    "source": "data/processed/sim_r3_window.csv"
+  },
+  "T3_sequence": {
+    "value": "R1",
+    "display": "R1",
+    "source": "data/processed/sim_trajectories.csv"
+  },
+  "T4_sequence": {
+    "value": "R1→R4",
+    "display": "R1>R4",
+    "source": "data/processed/sim_trajectories.csv"
+  },
+  "T4_first_transition": {
+    "value": 20,
+    "display": "20",
+    "source": "data/processed/sim_trajectories.csv"
+  },
+  "delta_adapt_T1": {
+    "value": 1.2392089287048875,
+    "display": "1.24",
+    "source": "data/processed/sim_adaptation.csv"
+  },
+  "delta_adapt_T1_kappa05": {
+    "value": 0.7392089287048877,
+    "display": "0.74",
+    "source": "data/processed/sim_adaptation.csv"
+  },
+  "viability_ext_T1": {
+    "value": 0.275,
+    "display": "0.275",
+    "source": "data/processed/sim_adaptation.csv"
+  },
+  "viability_ext_T1_pct": {
+    "value": 27.500000000000004,
+    "display": "27.5",
+    "source": "data/processed/sim_adaptation.csv"
+  },
+  "delta_vs_exit_T2": {
+    "value": -0.6483162969137934,
+    "display": "-0.65",
+    "source": "data/processed/sim_adaptation.csv"
+  },
+  "delta_vs_exit_T2_abs": {
+    "value": 0.6483162969137934,
+    "display": "0.65",
+    "source": "data/processed/sim_adaptation.csv"
+  },
+  "delta_vs_exit_T4": {
+    "value": -0.0532668532285347,
+    "display": "-0.05",
+    "source": "data/processed/sim_adaptation.csv"
+  },
+  "delta_vs_exit_T4_abs": {
+    "value": 0.0532668532285347,
+    "display": "0.05",
+    "source": "data/processed/sim_adaptation.csv"
+  },
+  "r3_window_pen05_steps": {
+    "value": 3,
+    "display": "3",
+    "source": "data/processed/sim_r3_window.csv"
+  },
+  "r3_window_pen2_steps": {
+    "value": 1,
+    "display": "1",
+    "source": "data/processed/sim_r3_window.csv"
+  },
+  "retro_coarse_k1_log10_max": {
+    "value": 39.08650337129267,
+    "display": "39",
+    "source": "data/processed/sim_retro.csv"
+  },
+  "retro_coarse_k1_log10_min": {
+    "value": 3.9086503371292673,
+    "display": "4",
+    "source": "data/processed/sim_retro.csv"
+  },
+  "retro_coarse_k20_log10": {
+    "value": 5.280007021694191,
+    "display": "5.28",
+    "source": "data/processed/sim_retro.csv"
+  },
+  "retro_fine_k1_log10": {
+    "value": 1.0857362047581298,
+    "display": "1.09",
+    "source": "data/processed/sim_retro.csv"
+  },
+  "retro_fine_k1_log10_int": {
+    "value": 1,
+    "display": "1",
+    "source": "data/processed/sim_retro.csv"
+  },
+  "retro_fine_k20_log10_int": {
+    "value": 0,
+    "display": "0",
+    "source": "data/processed/sim_retro.csv"
+  },
+  "retro_coarse_k20_log10_int": {
+    "value": 5,
+    "display": "5",
+    "source": "data/processed/sim_retro.csv"
+  },
+  "retro_fine_k20_log10": {
+    "value": 0.1466668617137275,
+    "display": "0.15",
+    "source": "data/processed/sim_retro.csv"
+  },
+  "expiration_frontier": {
+    "value": 0.05,
+    "display": "0.05",
+    "source": "data/processed/sim_phase.csv + tables/table_regimes.csv"
+  },
+  "r2_band_lo": {
+    "value": 0.3665241237079626,
+    "display": "0.37",
+    "source": "data/processed/sim_regime_map.csv"
+  },
+  "r2_band_hi": {
+    "value": 0.8886238162743398,
+    "display": "0.89",
+    "source": "data/processed/sim_regime_map.csv"
+  },
+  "c_ver_exit": {
+    "value": 0.1778279410038923,
+    "display": "0.2",
+    "source": "data/processed/sim_regime_map.csv"
+  },
+  "lineage_alpha_min": {
+    "value": 0.05,
+    "display": "0.05",
+    "source": "data/processed/sim_chain.csv"
+  },
+  "lineage_nb_a05_b05": {
+    "value": 0.013,
+    "display": "0.013",
+    "source": "data/processed/sim_chain.csv"
+  },
+  "lineage_nb_a10_b8": {
+    "value": -0.7120000000000001,
+    "display": "-0.712",
+    "source": "data/processed/sim_chain.csv"
+  },
+  "pf_sep8_deff4_q0_n50": {
+    "value": 0.9215757253720452,
+    "display": "0.92",
+    "source": "data/processed/sim_partial_source.csv"
+  },
+  "verif_sep_bound": {
+    "value": 4,
+    "display": "4",
+    "source": "data/processed/sim_partial_source.csv"
+  }
+}

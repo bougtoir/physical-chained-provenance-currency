@@ -1,0 +1,42 @@
+metric,value,unit,source_file,source_detail
+d_eff_empirical,2.9735,effective dimensions,data/processed/empirical_meta.json,d_eff_empirical
+n_meteorite_groups,16,groups,data/processed/empirical_meta.json,n_groups
+n_elements,13,elements,data/processed/empirical_meta.json,n_elements
+median_pairwise_separation,3.9,sigma per dimension,data/processed/empirical_separability.csv,median
+range_pairwise_separation,"0.54-10.6",sigma per dimension,data/processed/empirical_separability.csv,min-max
+static_expiration_frontier,0.05,c_syn_over_V,data/processed/sim_phase.csv + tables/table_regimes.csv,model-specific deep-obsolescence boundary
+bulk_chaining_incremental_effect,0,normalized,analysis/pcpc_model.py (M3a==M2 under A3),structural null
+lineage_net_benefit_alpha05_burden05,0.013,fraction of V,data/processed/sim_chain.csv,alpha=0.05 burden_coef=0.5
+lineage_net_benefit_alpha10_burden05,0.038,fraction of V,data/processed/sim_chain.csv,alpha=0.10 burden_coef=0.5
+lineage_net_benefit_alpha10_burden8,-0.712,fraction of V,data/processed/sim_chain.csv,alpha=0.10 burden_coef=8
+coalition_reversal_CRT05_N3,0.9,fraction,data/processed/sim_partial_source.csv,Delta/sigma=8
+coalition_reversal_CRT05_N50,0,fraction,data/processed/sim_partial_source.csv,Delta/sigma=8
+T1_sequence,"R1>R2>R4",regime sequence,data/processed/sim_trajectories.csv,rule A
+T1_first_transition_step,24,technology step,data/processed/sim_trajectories.csv,rule A
+T2_sequence,"R1>R2>R3>R4",regime sequence,sim_trajectories.csv,rule A
+T2_first_transition_step,18,technology step,sim_trajectories.csv,rule A
+T2_R3_optimal_window,"26-27",technology steps,data/processed/sim_r3_window.csv,d_eff_penalty=1.0
+T2_R3_window_d_eff05,"31-33",technology steps,data/processed/sim_r3_window.csv,d_eff_penalty=0.5
+T2_R3_window_d_eff2,21,technology steps,data/processed/sim_r3_window.csv,d_eff_penalty=2.0
+T3_sequence,"R1",regime sequence,sim_trajectories.csv,no transition
+T4_sequence,"R1>R4",regime sequence,sim_trajectories.csv,rule A
+T4_first_transition_step,20,technology step,sim_trajectories.csv,rule A
+delta_adapt_T1_kappa0,1.2392,V per 40-step horizon,data/processed/sim_adaptation.csv,kappa=0
+delta_adapt_T1_kappa05,0.7392,V,data/processed/sim_adaptation.csv,kappa=0.5
+delta_adapt_T2_kappa0,-0.5247,V,data/processed/sim_adaptation.csv,kappa=0
+delta_adapt_T3_kappa0,0.0,V,data/processed/sim_adaptation.csv,kappa=0
+delta_adapt_T4_kappa0,0.0,V,data/processed/sim_adaptation.csv,kappa=0
+delta_vs_exit_T1_kappa0,2.9282,V,data/processed/sim_adaptation.csv,kappa=0
+delta_vs_exit_T2_kappa0,-0.6483,V,data/processed/sim_adaptation.csv,kappa=0 (adaptive worse than immediate exit)
+delta_vs_exit_T3_kappa0,4.2459,V,data/processed/sim_adaptation.csv,kappa=0
+delta_vs_exit_T4_kappa0,-0.0533,V,data/processed/sim_adaptation.csv,kappa=0
+viability_extension_T1,0.275,fraction of horizon,data/processed/sim_adaptation.csv,all kappa
+viability_extension_T2,0.25,fraction of horizon,data/processed/sim_adaptation.csv,all kappa
+viability_extension_T3,0.0,fraction of horizon,data/processed/sim_adaptation.csv,all kappa
+viability_extension_T4,0.0,fraction of horizon,data/processed/sim_adaptation.csv,all kappa
+hysteresis,none,observed,data/processed/sim_hysteresis.csv,"identical first_switch for kappa in {0,0.1,0.25,0.5,1}"
+path_dependence,none,observed,data/processed/sim_pathdep.csv,end_A=end_B=R2 for all kappa
+ruleC_equals_ruleA,identical,sequences,sim_trajectories.csv,"A==C for all (traj,kappa)"
+retro_log10BF_k1_coarse,"21-39",log10,data/processed/sim_retro.csv,alpha=0.10 sigma_sig=3.0 depth 1
+retro_log10BF_k20_coarse,5.28,log10,data/processed/sim_retro.csv,alpha=0.10 sigma_sig=3.0 depth 20
+retro_log10BF_k1_fine,~4,log10,data/processed/sim_retro.csv,sigma_sig=0.5 depth 1 (near-perfect fabricator)

@@ -1,0 +1,5 @@
+trajectory,endogenous_sequence,first_transition_step,n_transitions,r3_window_steps,delta_adapt_V,viability_extension_frac
+T1,R1>R2>R4,24.0,2,0,1.239,0.275
+T2,R1>R2>R3>R4,18.0,3,2,-0.525,0.25
+T3,R1,,0,0,0.0,0.0
+T4,R1>R4,20.0,1,0,0.0,0.0

@@ -1,0 +1,9 @@
+Property,Cryptographic blockchain,PCPC
+Previous-state link,cryptographic hash,physical material inheritance
+Append-only history,protocol-enforced,production-sequence-dependent
+Distributed consensus,typically yes,not necessarily
+Replicated ledger,yes,not inherent (issuer records)
+Tamper evidence,cryptographic,material / forensic
+Authentication cost,computational,metrological (assay)
+State copying,"digital, free","physical, costly"
+Failure mode,key/protocol/consensus compromise,fabrication & assay economics
