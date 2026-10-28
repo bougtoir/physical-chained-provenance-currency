@@ -1,0 +1,10 @@
+SUBMISSION READY
+
+Evidence: see FINAL_QC_REPORT.md plus per-gate audit files in this package.
+Public mirror: https://github.com/bougtoir/physical-chained-provenance-currency @ da403ea
+Reproduction: FULL PASS (clean clone, fresh venv, make all; only FP-noise diffs).
+
+Human-only actions remaining:
+1. Editorial Manager upload of TFSC_MAIN_MANUSCRIPT_FINAL.docx (with embedded figures) or figure/TIFF files per EM prompts.
+2. Cover letter (TFSC_COVER_LETTER_FINAL.docx) and highlights (TFSC_HIGHLIGHTS.txt) pasted/uploaded.
+3. Author declarations (AI-assistance statement already in cover letter; confirm EM's required checkbox wording).
